@@ -1,0 +1,27 @@
+{
+  "name": "api-motivation",
+  "version": "1.0.0",
+  "description": "Backend for motivation app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "build": "npx tsc",
+    "start:dev": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-visakhvjn:visakhvjn/api-motivation.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
